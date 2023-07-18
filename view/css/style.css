@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+/* CSS wrapper */
+.wrapper{
+    background: url(../../img/background1.png);
+    width: 100%;
+    height: 753px;
+}
+/* kết thúc css phần wrapper */
+
+/* CSS phần header */
+.wrapper .header{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.wrapper .header .logo{
+    width: 16%;
+    height: 77px;
+}
+.wrapper .header .logo a{
+    font-size: 55px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    color: #0652DD;
+    background: transparent;
+}
+.wrapper .header .menu .submenu{
+    width: 103%;
+    transform: translateY(550px);  
+}
+.wrapper .header .menu .submenu li a{
+    font-size: 48px;
+    color: crimson;
+}
+.wrapper .header .menu .submenu li{
+    padding: 5px 0px 5px 0px;
+    visibility: hidden;
+    display: none;
+}
+.wrapper .header .menu .submenu li:hover{
+    background: radial-gradient(rgba(0, 0, 0, 0.63), rgba(128, 128, 128, 0.466));
+    transition: ease-out 0.5s;
+}
+.wrapper .header .menu .submenu li:hover a{
+    color: white;
+}
+.wrapper .header .menu .logo:hover .submenu li{
+    visibility: visible;
+    display: grid;
+}
+.wrapper .header .menu .logo:hover .submenu{
+    transform: translateY(-5px);
+    transition: all .5s;
+}
+.wrapper .header .menu .wassup{
+    font-size: 25px;
+    font-weight: 400;
+    float: right;
+    list-style-type: none;
+}
+.wrapper .header .menu .wassup a{
+    color: #0652DD;
+    text-decoration: none;
+    font-style: italic;
+}
+/* kết thúc css phần header */
+
+/* CSS phần giới thiệu */
+.wrapper .content{
+    width: 100%;
+    height: 88%;
+}
+.wrapper .content .gioithieu{
+    background: transparent;
+    backdrop-filter: blur(11px);
+    width: 75%;
+    margin: 10px auto;
+    top: 107px;
+    position: relative;
+}
+.wrapper .content .gioithieu h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(224, 224, 36);
+}
+.wrapper .content .gioithieu p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.wrapper .content .gioithieu .icon{
+    text-align: center;
+    margin-top: 10px;
+}
+.wrapper .content .gioithieu .icon a{
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+.wrapper .content .gioithieu .icon a:hover{
+    color: rgb(224, 224, 36);
+}
+/* kết thúc css phần giới thiệu */
