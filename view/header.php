@@ -7,7 +7,7 @@
 
 <div class="header">
             <ul class="menu">
-                <li class="wassup"><a href="">Wassup <?php echo $_SESSION['username'];?></a></li>
+                <li class="wassup"><a href="index.php?act=profile">Wassup <?php echo $_SESSION['username'];?></a></li>
                 <li class="logo">
                     <a class="thefam" href="index.php">THEFAM</a>
                     <ul class="submenu">

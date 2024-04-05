@@ -36,6 +36,12 @@
                                     session_unset();
                                     header('location: http://localhost/The%20Fam/');
                                     break;
+                                case 'hinhanh':
+                                    require "view/hinhanh.php";
+                                    break;
+                                case 'profile':
+                                    require "view/profile.php";
+                                    break;
                             }
                         }
                     ?>

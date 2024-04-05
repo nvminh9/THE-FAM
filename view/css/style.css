@@ -78,6 +78,7 @@
 .wrapper .content{
     width: 100%;
     height: 88%;
+    position: relative;
 }
 .wrapper .content .gioithieu{
     background: transparent;
@@ -113,3 +114,17 @@
     color: rgb(224, 224, 36);
 }
 /* kết thúc css phần giới thiệu */
+
+/* CSS phần profile (profile xuất hiện khi bấm phần chào người dùng) */
+.wrapper .content .container_profile{
+    width: 83%;
+    height: 113%;
+    top: -77px;
+    position: absolute;
+    left: 261px;
+}
+.wrapper .content .container_profile .profile {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
